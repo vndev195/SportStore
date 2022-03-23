@@ -1,0 +1,6 @@
+@model IQueryable<Product>
+@foreach (var p in Model ?? Enumerable.Empty<Product>()) {
+    <div>
+        <a asp-action="ProductDetail" asp-route-id="@p.ProductId">@p.Name</a>
+    </div>
+}
