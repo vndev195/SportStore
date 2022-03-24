@@ -7,9 +7,15 @@
     <h4>@p.Price.ToString("c")</h4>
     </div>
     }*@
-
-<div>
-    <h3>@Model.Name</h3>
-    @Model.Description
-    <h4>@Model.Price.ToString("c")</h4>
+@model Product
+<div class="card card-outline-primary m-1 p-3">
+    <div class="bg-faded">
+        <h4>
+            @Model.Name
+            <span class="badge rounded-pill bg-primary text-white" style="float:right">
+                <small>@Model.Price.ToString("c")</small>
+            </span>
+        </h4>
+    </div>
+    <div class="card-text">@Model.Description</div>
 </div>

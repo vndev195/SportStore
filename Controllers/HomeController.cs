@@ -20,9 +20,5 @@ namespace SportStore.Controllers
             return View(_repository.Products);
         }
 
-        public IActionResult ProductDetail(int id)
-        {
-            return View(_repository.Products.First(x => x.ProductId == id));
-        }
     }
 }
