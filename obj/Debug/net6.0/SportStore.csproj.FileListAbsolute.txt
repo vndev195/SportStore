@@ -117,3 +117,4 @@ C:\Users\vung-dev\Documents\Projects\SportStore\obj\Debug\net6.0\SportStore.pdb
 C:\Users\vung-dev\Documents\Projects\SportStore\obj\Debug\net6.0\SportStore.genruntimeconfig.cache
 C:\Users\vung-dev\Documents\Projects\SportStore\obj\Debug\net6.0\ref\SportStore.dll
 C:\Users\vung-dev\Documents\Projects\SportStore\bin\Debug\net6.0\SportStore.staticwebassets.runtime.json
+C:\Projects\VS-Projects\LEARN-ASP-CORE\LEARN-ASP-CORE\SportStoreSln\SportStore\bin\Debug\net6.0\SportStore.staticwebassets.runtime.json

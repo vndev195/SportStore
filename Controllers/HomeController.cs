@@ -15,9 +15,9 @@ namespace SportStore.Controllers
         //    return View(_repository.Products.OrderBy(x => x.ProductId).Skip((productPage - 1) * PageSize).Take(PageSize));
         //}
 
-        public IActionResult Index()
+        public IActionResult Index(string? category)
         {
-            return View(_repository.Products);
+            return View(_repository.Products.Where(x=>x.Category == category || category == null));
         }
 
     }
