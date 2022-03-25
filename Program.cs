@@ -14,6 +14,9 @@ builder.Services.AddDbContext<StoreDbContext>(opts =>
 //Adding dependency injection
 builder.Services.AddScoped<IStoreRepository, StoreRepository>();
 
+//Set up the services used by Razor Pages
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 // enables support for serving static content from the wwwroot folder
@@ -26,5 +29,7 @@ app.MapControllerRoute("category", "{category}",
 //Also tell ASP.Net Core how to match URLs to controller classes
 app.MapDefaultControllerRoute();
 
+//registers Razor Pages as endpoints that the URL routing system can use to handle requrests
+app.MapRazorPages();
 SeedData.EnsurePopulated(app);
 app.Run();
