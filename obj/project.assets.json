@@ -1823,19 +1823,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vu-ng\\.nuget\\packages\\": {}
+    "C:\\Users\\vung-dev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\VS-Projects\\LEARN-ASP-CORE\\LEARN-ASP-CORE\\SportStoreSln\\SportStore\\SportStore.csproj",
+      "projectUniqueName": "C:\\Users\\vung-dev\\Documents\\Projects\\SportStore\\SportStore.csproj",
       "projectName": "SportStore",
-      "projectPath": "C:\\Projects\\VS-Projects\\LEARN-ASP-CORE\\LEARN-ASP-CORE\\SportStoreSln\\SportStore\\SportStore.csproj",
-      "packagesPath": "C:\\Users\\vu-ng\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\VS-Projects\\LEARN-ASP-CORE\\LEARN-ASP-CORE\\SportStoreSln\\SportStore\\obj\\",
+      "projectPath": "C:\\Users\\vung-dev\\Documents\\Projects\\SportStore\\SportStore.csproj",
+      "packagesPath": "C:\\Users\\vung-dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vung-dev\\Documents\\Projects\\SportStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vu-ng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vung-dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
