@@ -10,6 +10,7 @@ namespace SportStore.Components
             repository = repo;
         }
         public IViewComponentResult Invoke() {
+            //allows unstructured data to be passed to a view alongside the view model object
             ViewBag.Category = RouteData?.Values["category"];
             return View(repository.Products
                 .Select(x => x.Category)

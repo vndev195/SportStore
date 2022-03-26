@@ -17,10 +17,21 @@ builder.Services.AddScoped<IStoreRepository, StoreRepository>();
 //Set up the services used by Razor Pages
 builder.Services.AddRazorPages();
 
+//session state, which is data associated with a series of requests made by a user.
+//the session data is lost when the application is stopped or restarted. 
+//The AddDistributedMemoryCache method call sets up the in-memory data store.
+//The AddSession method registers the services used to access session data
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
 var app = builder.Build();
 
 // enables support for serving static content from the wwwroot folder
 app.UseStaticFiles();
+
+//Adding session state to middleware
+//the UseSession method allows the session system to automatically associate requests with sessions when they arrive from the client.
+app.UseSession();
 
 //http://localhost:5000/Soccer
 app.MapControllerRoute("category", "{category}",
